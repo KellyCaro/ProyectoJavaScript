@@ -2,7 +2,7 @@
     "name": "rtm",
     "version": "0.0.1",
     "scripts": {
-        "start": "nodemon server.js"
+        "start": "nodemon src/index.js"
     },
     "dependencies": {
         "express": "^4.18.2",
@@ -14,5 +14,8 @@
     "keywords": [],
     "author": "",
     "license": "ISC",
-    "description": ""
+    "description": "",
+    "devDependencies": {
+        "dotenv": "^16.4.4"
+    }
 }
